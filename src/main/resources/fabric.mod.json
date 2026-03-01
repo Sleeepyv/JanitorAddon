@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "awake",
   "version": "${version}",
-  "name": "Addon Template",
+  "name": "Awakey's Janitor Addon",
   "description": "An addon template for Meteor Client addons.",
   "authors": [
-    "seasnail"
+    "Awakey"
   ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -14,11 +14,11 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.example.addon.Awake"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "addon-awake.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
