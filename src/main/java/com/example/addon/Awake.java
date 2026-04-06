@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 
 public class Awake extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
+    public static final Category CATEGORY = new Category("Janitor Addon");
     public static final HudGroup HUD_GROUP = new HudGroup("Example");
 
     @Override
